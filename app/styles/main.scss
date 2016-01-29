@@ -1,0 +1,199 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Classes I've Created */
+.whitenavbar {
+  background-color: #ffffff;
+}
+
+/* Sexy CSS Buttons */ 
+/*
+    Name:           ph-buttons
+    Description:  Pixcil Hub Buttons
+    Author:        Pixcils®
+    Version:      1.0
+*/
+
+/*Main button class
+==========================*/
+.ph-button {
+  border-style: solid;
+  border-width: 0px 0px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  color: #FFFFFF;    
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 200ms ease-in-out 0s;
+  white-space: nowrap;  
+  font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+  font-weight: 700; 
+  padding: 19px 39px 18px;
+  font-size: 24px;
+  width: 85%;
+  height: 150px;
+  margin-bottom: 25px;
+  line-height: 110px;
+}
+
+.ph-button:hover, .ph-button:focus, .ph-button:active {
+  text-decoration: none; 
+}
+
+/*Green
+==========================*/
+.ph-btn-green {
+  border-color: #3AC162;
+  background-color: #5FCF80;
+}
+.ph-btn-green:hover, .ph-btn-green:focus, .ph-btn-green:active {
+  background-color: #4BC970;
+  border-color: #3AC162;    
+}
+
+/*Blue
+==========================*/
+.ph-btn-blue {
+  border-color: #326E99;
+  background-color: #3F8ABF;
+}
+.ph-btn-blue:hover, .ph-btn-blue:focus, .ph-btn-blue:active {
+  background-color: #397CAC;
+  border-color: #326E99;   
+}
+
+/*Grey
+==========================*/
+.ph-btn-grey {
+  background-color: #C6CCD2;
+  border-color: #AAB3BB;
+}
+.ph-btn-grey:hover, .ph-btn-grey:focus, .ph-btn-grey:active {
+  background-color: #B8BFC7;
+  border-color: #AAB3BB; 
+}
+
+/*Red
+==========================*/
+.ph-btn-red {
+  background-color: #ED5A5A !important;
+  border-color: #EA4343 !important;
+}
+.ph-btn-red:hover, .ph-btn-red:focus, .ph-btn-red:active {
+  background: none repeat scroll 0 0 #EB4848 !important;
+  border-color: #E83131 !important;    
+}
+
+/*DEMO ONLY FOR CENTER POSITION*/
+.ph-container {  
+  margin: 0 auto;
+  display: inline;
+} 
+
+.ph-float {
+  float: left;
+  width: 22%;
+  padding: 10px;  
+  padding-top: 50px;  
+  text-align: center;
+}
+
+.ph-clear {
+  clear: both;
+}
+
+
